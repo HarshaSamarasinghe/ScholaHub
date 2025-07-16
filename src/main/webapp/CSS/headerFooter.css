@@ -1,0 +1,142 @@
+@charset "UTF-8";
+:root {
+  --blue-1: #091c32;
+  --blue-2: #223c5b;
+  --blue-3: #4a6488;
+  --ash-1: #293045;
+  --ash-2: #293045;
+  --gold: #ffd700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* navbar */
+nav {
+  height: 3.5rem;
+  background-color: var(--blue-1);
+  color: white;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  z-index: 1;
+}
+
+.hide {
+  display: none;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin: 1rem;
+}
+
+nav ul h3 {
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease-in;
+}
+
+nav ul a:hover {
+  color: var(--gold);
+}
+
+.nav-left {
+  align-items: center;
+  float: left;
+}
+
+.nav-left li:first-child {
+  margin-right: 60px;
+  cursor: pointer;
+}
+
+.nav-right {
+  float: right;
+}
+.nav-right {
+  align-items: center;
+}
+
+/* footer */
+
+.footer {
+  background-color: #091c32;
+}
+.footerContainer {
+  padding: 70px 30px 20px;
+}
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.socialIcons a i {
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+  transition: all 0.3s ease;
+}
+.socialIcons a:hover {
+  background-color: #111;
+  transition: 0.5s;
+}
+.socialIcons a i:hover {
+  color: #ffffff;
+  transition: 0.5s;
+}
+.footerNav {
+  margin: 30px 0;
+}
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+}
+.footerNav ul li a {
+  color: #ffffff;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.footerNav ul li a:hover {
+  opacity: 1;
+}
+.footerButton {
+  background-color: #091c32;
+  padding: 20px;
+  text-align: center;
+}
+.footerButton p {
+  color: #ffffff;
+}
+.designer {
+  opacity: 0.7s;
+  text-transform: none;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
